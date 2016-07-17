@@ -14,10 +14,11 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/chapter1$findingLargestOrSmallestNItems.coverage" NAME="findingLargestOrSmallestNItems Coverage Results" MODIFIED="1468750438425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chapter1$findingLargestOrSmallestNItems.coverage" NAME="findingLargestOrSmallestNItems Coverage Results" MODIFIED="1468752457583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chapter1$unpackingSequence.coverage" NAME="unpackingSequence Coverage Results" MODIFIED="1468687212673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chapter1$unpackingelements.coverage" NAME="unpackingelements Coverage Results" MODIFIED="1468687916955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chapter1$keepingLastNItems.coverage" NAME="keepingLastNItems Coverage Results" MODIFIED="1468735859950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/chapter1$Implementing_a_Priority_Queue.coverage" NAME="Implementing_a_Priority_Queue Coverage Results" MODIFIED="1468752464299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -58,11 +59,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="findingLargestOrSmallestNItems.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="findingLargestOrSmallestNItems.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/findingLargestOrSmallestNItems.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+            <state relative-caret-position="345">
+              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Implementing_a_Priority_Queue.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Implementing_a_Priority_Queue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -95,6 +106,7 @@
         <option value="$PROJECT_DIR$/somefile.txt" />
         <option value="$PROJECT_DIR$/keepingLastNItems.py" />
         <option value="$PROJECT_DIR$/findingLargestOrSmallestNItems.py" />
+        <option value="$PROJECT_DIR$/Implementing_a_Priority_Queue.py" />
       </list>
     </option>
   </component>
@@ -165,7 +177,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
-  <component name="RunManager" selected="Python.findingLargestOrSmallestNItems">
+  <component name="RunManager" selected="Python.Implementing_a_Priority_Queue">
     <configuration default="false" name="unpackingSequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -234,6 +246,24 @@
       <module name="chapter1" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/findingLargestOrSmallestNItems.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Implementing_a_Priority_Queue" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="chapter1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Implementing_a_Priority_Queue.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -440,18 +470,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.unpackingSequence" />
       <item index="1" class="java.lang.String" itemvalue="Python.unpackingelements" />
       <item index="2" class="java.lang.String" itemvalue="Python.keepingLastNItems" />
       <item index="3" class="java.lang.String" itemvalue="Python.findingLargestOrSmallestNItems" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Implementing_a_Priority_Queue" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.findingLargestOrSmallestNItems" />
-        <item index="1" class="java.lang.String" itemvalue="Python.keepingLastNItems" />
-        <item index="2" class="java.lang.String" itemvalue="Python.unpackingelements" />
-        <item index="3" class="java.lang.String" itemvalue="Python.unpackingSequence" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.Implementing_a_Priority_Queue" />
+        <item index="1" class="java.lang.String" itemvalue="Python.findingLargestOrSmallestNItems" />
+        <item index="2" class="java.lang.String" itemvalue="Python.keepingLastNItems" />
+        <item index="3" class="java.lang.String" itemvalue="Python.unpackingelements" />
+        <item index="4" class="java.lang.String" itemvalue="Python.unpackingSequence" />
       </list>
     </recent_temporary>
   </component>
@@ -554,8 +586,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/findingLargestOrSmallestNItems.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        <state relative-caret-position="345">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Implementing_a_Priority_Queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding />
         </state>
       </provider>
